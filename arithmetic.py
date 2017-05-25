@@ -26,7 +26,11 @@ def divide(num1, num2):
     """Divide the first input by the second, returning a floating point."""
 
     total = num1 / num2
+<<<<<<< HEAD
     total = float(total)
+=======
+    total = "{:.2f}".format(total)
+>>>>>>> 9672acb9c89d573d985608120f2a746fd009aa5b
     return total
 
 
@@ -55,6 +59,7 @@ def mod(num1, num2):
     """Return the remainder of num / num2."""
 
     total = num1 % num2
+<<<<<<< HEAD
     return total
 
 
@@ -70,3 +75,6 @@ def add_cubes(num1, num2):
 
     total = (num1 ** 3) + (num2 ** 3)
     return total
+=======
+    return total
+>>>>>>> 9672acb9c89d573d985608120f2a746fd009aa5b
